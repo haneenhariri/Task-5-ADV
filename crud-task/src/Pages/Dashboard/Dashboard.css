@@ -1,0 +1,20 @@
+.dash
+{
+    display: flex;
+    height: 100vh;
+}
+.das-header
+{
+    padding: 24px 64px;
+    width: 81.25%;
+    background-color: #FDFDFD;
+}
+@media(max-width:992px)
+{
+    .das-header
+    {
+        padding: 24px 44px;
+        width:100%;
+        background-color: #FDFDFD;
+    }
+}

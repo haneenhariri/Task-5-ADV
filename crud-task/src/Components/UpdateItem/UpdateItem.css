@@ -1,0 +1,45 @@
+.img-label-up
+{
+    width: 208px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+    overflow: hidden;
+}
+.up-img-div img 
+{
+
+    object-fit: cover;
+}
+.add-up-btn-div
+{
+    display: flex;
+    justify-content: center;
+}
+.add-up-btn
+{
+    margin-top: 120px;
+    width: 199px;
+    background-color: #FEAF00;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 11px ;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    border-radius: 4px;
+
+}
+@media (max-width:1400px)
+{
+    .add-up-btn
+    {
+        margin-top: 60px;
+        width: 130px;
+        font-size: 15px;
+        padding: 4px;
+    }
+}

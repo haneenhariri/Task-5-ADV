@@ -1,0 +1,48 @@
+.link-control
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 76px;
+}
+.link-control .icon
+{
+    width: 9.88px;
+    color: #000000;
+}
+.add-title
+{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73.14px;
+}
+@media(max-width: 1400px)
+{
+    .link-control
+    {
+        margin-bottom: 46px;
+    }
+    .add-title
+    {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+}
+@media(max-width: 1200px)
+{
+    .link-control
+    {
+        margin-bottom: 26px;
+    }
+    .add-title
+    {
+        font-size: 30px;
+        line-height: normal;
+    }
+}
+

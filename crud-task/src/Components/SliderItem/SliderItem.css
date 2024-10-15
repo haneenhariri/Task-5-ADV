@@ -1,0 +1,163 @@
+.slider 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.slider-content
+{
+    margin-bottom: 80px;
+}
+.phone
+{
+    width: 208px;
+    height:  208px;
+    box-shadow: 8px 8px  4px 0 #00000040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 5px 10px;
+    position: relative;
+}
+.phone img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: contain;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 208px 208px 208px 208px;
+    width: 100%;
+    gap: 40px;
+    height: 456px;
+  }
+.hover-layout
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F2EAE1B2;
+    border-radius: 16px;
+    padding: 52.5px 19px;
+}
+.hover-layout h3 
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+.hover-layout:hover
+{
+    opacity: 1;
+}
+.hover-layout .delete-btn
+{
+    background-color: #FE0000;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 9px 18px 8px 18px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.hover-layout .btns
+{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.hover-layout .Edit-btn 
+{
+    background-color: #FEAF00;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 9px 18px 8px 18px;
+}
+
+@media(max-width: 1400px)
+{
+    .row {
+        display: grid;
+        grid-template-columns: 10rem 10rem 10rem 10rem ;
+        width: 100%;
+        gap: 20px;
+        height: 20rem;
+      }
+      .phone
+      {
+          width: 10rem;
+          height:  10rem;
+          box-shadow: 4px 4px  2px 0 #00000040;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 16px;
+          padding: 5px 10px;
+          position: relative;
+      }
+      .slider-content
+        {
+            margin-bottom: 40px;
+        }
+        .hover-layout h3
+        {
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+}
+@media(max-width: 1200px)
+{
+    .row {
+        display: grid;
+        grid-template-columns: 10rem 10rem 10rem  ;
+        width: 100%;
+        gap: 20px;
+        height: 20rem;
+      }
+      .phone
+      {
+          width: 10rem;
+          height:  10rem;
+          box-shadow: 4px 4px  2px 0 #00000040;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 16px;
+          padding: 5px 10px;
+          position: relative;
+      }
+      .slider-content
+        {
+            margin-bottom: 40px;
+        }
+        .hover-layout h3
+        {
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+}
+@media (max-width: 992px)
+{
+    .row {
+        display: grid;
+        grid-template-columns: 10rem 10rem  ;
+        width: 100%;
+        gap: 20px;
+        height: 20rem;
+      }
+}

@@ -1,0 +1,85 @@
+.sidebar {
+    width: 270px;
+    background-color: #F2EAE1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 39px 31px 39px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0); 
+
+}
+.dash-logo
+{
+    height: 23px;
+    padding: 0 12.34px;
+    border-left: 4px solid #F8D442;
+}
+.dash-logo img
+{
+    width: 84.89px;
+}
+.head
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile
+{
+ 
+    margin: 54px 0 73px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pro-img
+{
+    width: 141px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+.profile h3 
+{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20.72px;
+}
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #FEAF00;
+    border: none;
+    width: 30px ;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.toggle-button  img 
+{
+    width: 15px;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        transform: translateX(-270px);
+        z-index: 999;
+    }
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .pro-img {
+        width: 120px;
+        border-radius: 50%;
+    }
+}

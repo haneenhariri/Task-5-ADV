@@ -1,0 +1,61 @@
+.sign
+{
+    height: 100vh;
+    background: linear-gradient(to right, #FEAF00 ,#F8D442);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 95px 0;
+}
+.box
+{
+    width: 476px;
+    background-color: #FFFFFF;
+    padding: 42px 30.06px 0 30.06px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box .head
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box .head img
+{
+    margin-bottom: 43px;
+}
+.box .head h3
+{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+.box .head p
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #6C6C6C;
+}
+@media (max-width:1400px)
+{
+    .box .head img
+    {
+
+        margin-bottom: 33px;
+    }
+    .box .head h3
+    {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}

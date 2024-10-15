@@ -1,0 +1,42 @@
+.product
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.add-btn
+{
+    display: flex;
+    justify-content: end;
+    margin: 48px 0 32px 0;
+   
+}
+.add-btn .link-btn
+{
+    border-radius: 4px;
+    padding: 13px 24px;
+    background-color: #FEAF00;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+@media (max-width:992px)
+{
+    .add-btn .link-btn
+    {
+        border-radius: 4px;
+        padding: 13px ;
+        background-color: #FEAF00;
+        font-family: 'Montserrat';
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        text-decoration: none;
+        
+    }
+}
